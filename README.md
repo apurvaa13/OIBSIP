@@ -1,49 +1,112 @@
-# OIBSIP Internship Projects
+# OIBSIP - Python Programming Internship
 
-This repository contains the projects completed by me as part of the **Oasis Infobyte Python Programming Internship**.
+This repository contains all the tasks completed during the Oasis Infobyte Python Programming Internship.
 
-## Intern Details
-- **Name:** Apurva Apandkar
-- **Domain:** Python Programming
-- **Internship Provider:** Oasis Infobyte
+## Internship Details
+- Organization: Oasis Infobyte
+- Domain: Python Programming
+- Internship Type: Virtual Internship
+- Duration: 1 Month
 
-## Projects
+---
+
+## Completed Tasks
 
 ### Task 1: BMI Calculator
-- Command-line based BMI calculator
-- Takes weight and height as input
-- Calculates BMI and categorizes health status
-- Includes input validation and error handling
+A command-line based Body Mass Index (BMI) Calculator developed using Python.
+
+**Features:**
+- Accepts weight (kg) and height (meters)
+- Calculates BMI using standard formula
+- Categorizes result into:
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+- Handles invalid input using exception handling
+
+**Concepts Used:**
+- Functions
+- Conditional statements
+- Exception handling
+- Mathematical calculations
+
+📂 Folder: `Task1_BMI_Calculator`
+
+---
 
 ### Task 2: Random Password Generator
-- Command-line password generator
+A command-line based Random Password Generator built using Python.
+
+**Features:**
 - User-defined password length
-- Options to include letters, digits, and symbols
-- Uses Python `random` and `string` modules
-- Modular and clean code structure
-
-### Task 3: Weather App (Upcoming)
-- Will fetch real-time weather data using API
-- CLI-based Python application
-
-## Concepts Learned
-- Python functions and modular programming
-- Exception handling
+- Option to include:
+  - Letters (uppercase & lowercase)
+  - Digits
+  - Special characters
 - Input validation
-- Randomization
-- Project organization
-- Git and GitHub workflow
-- Writing professional README files
+- Secure random password generation
 
-## Repository Structure
-OIBSIP
-├── README.md
-├── Task1_BMI_Calculator
-├── Task2_Password_Generator
-└── Task3_Weather_App
+**Concepts Used:**
+- Functions and return values
+- Loops
+- Conditional statements
+- `random` module
+- `string` module
+- Exception handling
 
-## Notes
-This repository is updated regularly as I progress through the internship tasks.
+📂 Folder: `Task2_Random_Password_Generator`
+
+---
+
+### Task 3: Weather App
+A command-line based Weather Application that fetches real-time weather data using the OpenWeatherMap API.
+
+**Features:**
+- Accepts city name as input
+- Fetches real-time weather data
+- Converts temperature from Kelvin to Celsius
+- Displays:
+  - City name
+  - Temperature
+  - Humidity
+  - Weather condition
+- Handles API and network errors
+
+**Concepts Used:**
+- API integration using `requests`
+- JSON data handling
+- Dictionary and list indexing
+- Exception handling
+- Unit conversion
+
+📂 Folder: `Task3_Weather_App`
+
+---
+
+## Technologies Used
+- Python
+- Requests Library
+- OpenWeatherMap API
+- Git & GitHub
+
+---
+
+## What I Learned
+- Building real-world command-line applications
+- Working with APIs
+- Handling JSON data
+- Writing modular and clean Python code
+- Error handling and input validation
+- Using Git and GitHub for version control
+- Managing API keys securely
+
+---
+
+## Note
+For the Weather App, replace the `API_KEY` in the code with your own OpenWeatherMap API key before running the program.
+
+---
 
 ## Author
-Apurva Apandkar
+Apurvaa
