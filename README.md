@@ -109,4 +109,4 @@ For the Weather App, replace the `API_KEY` in the code with your own OpenWeather
 ---
 
 ## Author
-Apurvaa
+Apurva Apandkar
